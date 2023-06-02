@@ -1,0 +1,44 @@
+.maindiv {
+  background-color: #84ebed;
+  width: 100%;
+  height: 80vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  border-radius: 5px;
+}
+
+.maindiv .div1 {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #08f9c4, #99aa99);
+  
+  border-radius: 8px;
+}
+
+.maindiv .div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(to bottom, #0bf4ae, #c9eecf);
+}
+
+
+.maindiv .div2 img {
+  
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
